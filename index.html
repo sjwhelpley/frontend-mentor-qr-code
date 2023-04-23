@@ -13,7 +13,6 @@
 
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     body {
       background-color: hsl(212, 45%, 89%);
@@ -22,55 +21,45 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      width: 100%;
+      min-height: 100vh;
     }
 
     .card {
       background-color: hsl(0, 0%, 100%);
       border-radius: 20px;
-      padding: 10px;
+      padding: 1rem;
       text-align: center;
-      width: 300px;
+      max-width: 20rem;
       box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
     }
 
     img {
-      width: 290px;
+      max-width: 100%;
       border-radius: 10px;
-      margin: 10px 0px;
     }
 
     h1 {
       font-size: 24px;
       font-weight: 700;
       color: hsl(218, 44%, 22%);
+      margin: 10px 10px 10px 0px;
     }
 
     p {
       font-size: 15px;
       color: hsl(220, 15%, 55%);
       font-weight: 400;
-      padding: 0px 20px;
-    }
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
+      margin: 10px 30px;
     }
   </style>
 </head>
 
 <body>
-  <div class="card">
-    <img src="./images/image-qr-code.png" />
+  <main class="card">
+    <img src="./images/image-qr-code.png" alt="QR code" />
     <h1>Improve your front-end skills by building projects</h1>
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
+  </main>
 </body>
 
 </html>
